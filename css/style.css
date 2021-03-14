@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Colors */
@@ -32,10 +32,10 @@ img {
 /* Header */
 .header {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-shadow: 0 0 0.5em black;
-          box-shadow: 0 0 0.5em black;
+  box-shadow: 0 0 0.5em black;
   margin-bottom: 3rem;
   background-color: #fff;
 }
@@ -45,8 +45,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 75px;
 }
 
@@ -63,8 +63,8 @@ img {
 
 .form__wrapper-left {
   -webkit-box-flex: 35%;
-      -ms-flex: 35%;
-          flex: 35%;
+  -ms-flex: 35%;
+  flex: 35%;
   border-right: 1px solid #c1c0c0;
 }
 
@@ -88,10 +88,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .form__wrapper:last-of-type .form__link {
@@ -100,17 +100,22 @@ img {
 
 .form__input {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
-.form__label-email, .form__label-user, .form__label-password, .form__label-birthday {
+.form__label-email,
+.form__label-user,
+.form__label-password,
+.form__label-birthday {
   display: block;
   margin-bottom: 0.5rem;
   color: #7b737e;
 }
 
-.form__input-email, .form__input-user, .form__input-password {
+.form__input-email,
+.form__input-user,
+.form__input-password {
   padding: 1rem;
   margin-bottom: 1rem;
   width: 95%;
@@ -118,7 +123,10 @@ img {
   font: inherit;
 }
 
-.form__input-email:hover, .form__input-user:hover, .form__input-password:hover, .form__select:hover {
+.form__input-email:hover,
+.form__input-user:hover,
+.form__input-password:hover,
+.form__select:hover {
   border: 1px solid #f78c25;
 }
 
@@ -133,14 +141,14 @@ img {
 
 .form__input-container input[type='radio'] {
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   margin-right: 1rem;
   background-color: #f78c25;
 }
 
 .form__update {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   margin-right: 1rem;
 }
 
@@ -177,8 +185,8 @@ img {
 
 .form__wrapper-right {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   padding-left: 2rem;
 }
 
@@ -210,10 +218,11 @@ img {
   .form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
-  .form__wrapper-left, .form__wrapper-right {
+  .form__wrapper-left,
+  .form__wrapper-right {
     max-width: 430px;
     width: 95%;
     margin: 0 auto;
@@ -224,11 +233,11 @@ img {
   .form__wrapper-left .form__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .form__wrapper-left .form__wrapper .form__input {
     width: 100%;
@@ -240,17 +249,17 @@ img {
   .form__wrapper-left .form__wrapper-checkbox {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .form__wrapper-left .form__wrapper-checkbox {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .form__wrapper-left button {
     max-width: 100%;
@@ -258,8 +267,8 @@ img {
   .form__wrapper-right {
     padding-left: 0;
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     margin-bottom: 4rem;
   }
   .footer {
@@ -270,6 +279,11 @@ img {
 @media (max-width: 430px) {
   .form__title {
     font-size: 1.5rem;
+  }
+  .form__input-email,
+  .form__input-user,
+  .form__input-password {
+    width: 100%;
   }
   .form__select {
     width: 100%;
